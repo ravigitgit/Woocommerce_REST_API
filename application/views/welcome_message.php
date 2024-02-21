@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
 
-            <table class="table">
+            <table id="table" class="table">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -91,13 +91,17 @@
                                 echo $data;
                             } ?></p>
                     </fieldset>
+
                 </div>
                 <div class="col-sm-3"></div>
         </div>
+        <button id="btnShow">Show/Hide Gift Card Numbers</button>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="<?php echo base_url('assets/js/table.js'); ?>"></script>
 </body>
 
 
